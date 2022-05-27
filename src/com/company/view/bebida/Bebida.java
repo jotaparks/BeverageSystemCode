@@ -13,7 +13,7 @@ public class Bebida {
             BebidaController.atualizar(1,"guarana",30,9,12);
             System.out.println("Bebida criada com sucesso " + nomeBebida);
         }catch(Exception e){
-            System.out.println("Ocorreu um erro ao criar bebida " + nomeBebida + "\n " + e);
+            System.out.println("Ocorreu um erro ao criar  bebida " + nomeBebida + "\n " + e);
         }
     }
 }
