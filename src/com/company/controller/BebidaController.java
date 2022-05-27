@@ -25,7 +25,7 @@ public class BebidaController {
     public static void deletar(int idBebida){
         BebidaModel.deletar(idBebida);
     }
-    public static void atualizar(int idBebida, String nomeBebida, int quantidadeEstoque, double precoBalcao,
+    public static void atualizar(int idBebida, String  nomeBebida, int quantidadeEstoque, double precoBalcao,
                                  double precoDelivery){
         BebidaModel.atualizar(idBebida,nomeBebida,quantidadeEstoque,precoBalcao,precoDelivery);
     }
