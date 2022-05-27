@@ -43,7 +43,7 @@ public class BebidaModel {
     }
 
     public static void atualizar(int idBebida, String nomeBebida, int quantidadeEstoque, double preco_balcao,
-                                 double preco_delivery){
+                                 double  preco_delivery){
         Connection con_db = dbconnection.getConnection();
         PreparedStatement st2 = null;
         try {
